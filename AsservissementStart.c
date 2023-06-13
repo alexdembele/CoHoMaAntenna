@@ -105,6 +105,8 @@ void loop() {
    
   //--selectionner target--
 
+   
+  //--renvoyer logs de fonctionnement--
   
   if(selection) //  --->DRONE
   {
