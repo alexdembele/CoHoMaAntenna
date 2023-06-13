@@ -13,7 +13,7 @@ Servo myservo2; // There are 2 motors
 void setup() {
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object
   myservo2.attach(10); // attaches the other on pin 10
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT); //We use the led to check if the programm runs correctly
 }
 
 void loop() {
